@@ -1,5 +1,5 @@
 .homePage {
-    font-family: 'Roboto';
+    font-family: 'Nunito';
     background: #f3f4fb;
 }
 
@@ -9,11 +9,12 @@
 }
 
 .firstRight {
-    align-self: flex-end;
+    align-self: center;
 }
 
 .firstRight img {
     max-height: 600px;
+    border-radius: 15px;
     margin: 0 auto;
 }
 
@@ -133,6 +134,7 @@
     font-size: 28px;
     margin: 20px 0 30px 0;
     color: #565656;
+    line-height: 1.5em;
 }
 
 .crBtn {

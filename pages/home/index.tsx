@@ -13,23 +13,25 @@ export default function Home() {
             <div className="container">
                 <section className={['row', styles.first].join(' ')}>
                     <div className={['col-md-6', styles.firstLeft].join(' ')}>
-                        <h1>Who cares who you are</h1>
-                        <p>design your resume and prove yourself</p>
+                        <p>
+                            Con <strong>Ann0nCv Builder</strong>, diseñar tu CV es muy fácil, así vas a poder enfocarte en presentar tus
+                            habilidades de manera simple y clara para conseguir el trabajo de tus sueños.
+                        </p>
 
                         <div className={styles.crBtn}>
                             <Link href="/resume-builder">
-                                <a>Build My Resume</a>
+                                <a>Crea tu Currículum Gratis!</a>
                             </Link>
                         </div>
                     </div>
                     <div className={['col-md-6', styles.firstRight].join(' ')}>
-                        <img src="/images/bg.png" alt="first slide image home page" className="imgResponsive" />
+                        <img src="/images/bg_home.jpg" alt="first slide image home page" className="imgResponsive" />
                     </div>
                 </section>
 
                 <section className={[styles.second].join(' ')}>
                     <div className={styles.secondTitle}>
-                        <h2>Why trying WTFResume?</h2>
+                        <h2>Por qué usar Ann0nCV?</h2>
                     </div>
 
                     <div className={['row justify-content-md-center', styles.itemsRow].join(' ')}>
@@ -39,7 +41,7 @@ export default function Home() {
                                     <div className={[styles.itemImg, styles.itemImgBg1].join(' ')}>
                                         <img src="images/icons/signs.png" alt="100% free" className="imgResponsive verticalCenter" />
                                     </div>
-                                    <p>100% free</p>
+                                    <p>100% Gratis</p>
                                 </article>
                             </div>
                             <div className={['col-md-5', styles.secondItem].join(' ')}>
@@ -47,7 +49,7 @@ export default function Home() {
                                     <div className={[styles.itemImg, styles.itemImgBg4].join(' ')}>
                                         <img src="images/icons/body.png" alt="easy to use" className="imgResponsive verticalCenter" />
                                     </div>
-                                    <p>Easy to use</p>
+                                    <p>Fácil de usar</p>
                                 </article>
                             </div>
                         </div>
@@ -60,7 +62,7 @@ export default function Home() {
                                     <div className={[styles.itemImg, styles.itemImgBg2].join(' ')}>
                                         <img src="images/icons/time.png" alt="makes a minute" className="imgResponsive verticalCenter" />
                                     </div>
-                                    <p>It take a minute</p>
+                                    <p>Tu CV en minutos</p>
                                 </article>
                             </div>
                             <div className={['col-md-5', styles.secondItem].join(' ')}>
@@ -72,7 +74,7 @@ export default function Home() {
                                             className="imgResponsive verticalCenter"
                                         />
                                     </div>
-                                    <p>No need to register</p>
+                                    <p>No necesitas registrarte</p>
                                 </article>
                             </div>
                         </div>
@@ -89,7 +91,7 @@ export default function Home() {
                                             className="imgResponsive verticalCenter"
                                         />
                                     </div>
-                                    <p>Real time design</p>
+                                    <p>Diseño en tiempo real</p>
                                 </article>
                             </div>
                             <div className={['col-md-5', styles.secondItem].join(' ')}>
@@ -105,35 +107,33 @@ export default function Home() {
                 </section>
 
                 <section className={[styles.third].join(' ')}>
-                    <h2>How does it work?</h2>
+                    <h2>Cómo funciona?</h2>
                     <div className="row justify-content-md-center">
                         <article className={['col-md-6 row justify-content-md-center', styles.thirdVideo].join(' ')}>
-                            {/* <video loop poster="/images/resume-pic.jpg" controls>
-                                <source src="video/resume.mp4" type="video/mp4" />
-                                <source src="video/resume.webm" type="video/webm" />
-                            </video> */}
-                            <iframe
+                            {/* <iframe
                                 width="100%"
                                 height="600"
                                 src="https://www.youtube.com/embed/u5eIsENOLUc?rel=0&showinfo=1"
                                 frameBorder="0"
                                 allowFullScreen
-                            ></iframe>
+                            ></iframe> */}
+
+                            {/* TODO: Video Tutorial */}
                         </article>
                     </div>
                 </section>
 
                 <section className={[styles.forth].join(' ')}>
-                    <p>You can save your data and use it in the future.</p>
-                    <p className={styles.bold}>what do you think! isn&lsquo;t it amazing?</p>
+                    <p>Guardá tu progreso y continuá en el futuro.</p>
+                    <p className={styles.bold}>Re copado no? 😀</p>
                     <div className={styles.crBtn}>
                         <Link href="/resume-builder">
-                            <a>WTF! Show me how</a>
+                            <a>Crea tu Currículum Gratis!</a>
                         </Link>
                     </div>
                 </section>
             </div>
-
+            {/* <a href="https://www.freepik.com/vectors/computer">Computer vector created by pch.vector - www.freepik.com</a> */}
             <Footer />
         </div>
     );
