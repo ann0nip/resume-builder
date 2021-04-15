@@ -9,9 +9,10 @@ export default function HeaderNavbar() {
         <Navbar expand="sm" className={styles.nav}>
             <section className="container">
                 <Link href="/">
-                    <a>
-                        <img src="/images/logo1.png" alt="wtfresume logo (resume builder)" className={styles.logo} />
-                    </a>
+                    {/* <img src="/images/logo1.png" alt="wtfresume logo (resume builder)" className={styles.logo} /> */}
+                    <h1>
+                        <a className={styles.logo}>Ann0nCv Builder</a>
+                    </h1>
                 </Link>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarNav}>
@@ -20,17 +21,11 @@ export default function HeaderNavbar() {
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <div className={styles.navItem}>
-                            <Link href="/resume-builder">
-                                <a>Create My Resume</a>
-                            </Link>
-                        </div>
-
-                        <div className={styles.navItem}>EN</div>
+                        <div className={styles.navItem}>ES</div>
 
                         <div className={styles.navItem}>
-                            <a href="https://github.com/sramezani/resume-builder" target="_blank" rel="noopener noreferrer">
-                                github
+                            <a href="https://github.com/ann0nip/resume-builder" target="_blank" rel="noopener noreferrer">
+                                GitHub
                             </a>
                         </div>
                     </Nav>
